@@ -36,7 +36,7 @@ function addElements(days, desc){
 
     h1Element.textContent = "Дней: " + daysOut + " из " + localStorage.key(days);
     if(daysOut >= localStorage.key(days)){
-        alert("Время: " arrayFromA[0] + " прошло");
+        alert("Событие: " + arrayFromA[0] + " прошло");
         remove(days);
     }
     var h2Element = document.createElement("h2");
